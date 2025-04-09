@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina con Logo e Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2 class="titolo-principale">
+            <span>Esperta in informatica per le aziende digitali</span>
+        </h2>
+        <p class="sottotitolo">
+            <span> Scrittura e copywriting </span>
+            <span> | </span>
+            <span> Grafica e design </span>
+            <span> | </span>
+            <span> Sviluppo web e programmazione </span> 
+            <span> | </span> 
+            <span> Marketing digitale </span>
+        </p>
+        <div class="logo-menu-container">
+            <img src="/frontend/static/logo-modificato.svg" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home" class="testo-sezione">Home</a></li>
+                    <li><a href="#contatti" class="testo-sezione">Contatti</a></li>
+                    <li><a href="#lavoro" class="testo-sezione">Portfolio Siti Web</a></li>
+                    <li><a href="#articoli" class="testo-sezione">Articoli</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sezione dell'immagine strumenti-marketing-digitale -->
+    <div class="immagine-strumenti-container">
+        <img src="/frontend/static/strumenti-marketing-digitale.jpg" alt="strumenti-marketing-digitale" class="immagine-strumenti">
+    </div>
+
+    <main>
+        <section id="home">
+            <div class="titolo-container">
+                <h1 class="titolo-home">Home</h1>
+            </div>
+        
+            <div class="contenuto-principale">
+                <div class="foto-fede-wrapper">
+                    <img src="/frontend/static/Fede1.jpg" alt="La tua foto" class="foto-fede">
+                </div>
+        
+                <div class="testo-home">
+                    <p>
+                        <span class="primo-rigo">TRASFORMA LE TUE IDEE IN REALTA' DIGITALI!</span><br>
+                        Benvenuto nel luogo in cui creatività e strategia si incontrano per far crescere il tuo business online.
+                        Sono Federica Gioffrè, esperta in informatica per le aziende digitali ed aiuto imprenditori e professionisti a sviluppare il loro brand, nonchè,
+                        a rafforzare la loro presenza sul web in modo efficace e soprattutto esclusivo.<br>
+                        Mi occupo di: <br>
+                        ✅ <strong>Scrittura e Copywriting</strong> – Contenuti persuasivi che catturano l’attenzione.<br>
+                        ✅ <strong>Grafica e Design</strong> – Un’identità visiva che racconta chi sei e cosa fai.<br>
+                        ✅ <strong>Sviluppo Web & Programmazione</strong> – Siti web funzionali, moderni ed ottimizzati.<br>
+                        ✅ <strong>Marketing Digitale</strong> – Strategie per aumentare visibilità, clienti e quindi vendite.<br><br>
+                        Ma il mio lavoro non si ferma alla creazione del sito web: ti affianco passo dopo passo, offrendoti assistenza continua
+                        e supporto strategico per aiutarti a crescere nel mondo digitale.<br>
+        
+                        <a href="#progetto" class="progetto-in-mente">
+                            💡 Hai un progetto in mente? Creiamolo insieme! 🚀
+                        </a>
+                        <a href="#contatti" class="cerchiato">Contattami per una consulenza gratuita!</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="contatti">
+            <h1>Contatti</h1>
+            <p class="testo-sezione">Compila il modulo per contattarmi:</p>
+            <div class="modulo-contatti-container">
+                <form action="https://formspree.io/f/mkgjoajd" method="post" class="modulo-contatti">
+                    <div class="form-row">
+                        <label for="nome" class="testo-sezione">Nome:</label>
+                        <input type="text" name="nome" id="nome" required class="testo-sezione">
+                    </div>
+                    <div class="form-row">
+                        <label for="cognome" class="testo-sezione">Cognome:</label>
+                        <input type="text" name="cognome" id="cognome" required class="testo-sezione">
+                    </div>
+                    <div class="form-row">
+                        <label for="telefono" class="testo-sezione">Telefono:</label>
+                        <input type="tel" name="telefono" id="telefono" class="testo-sezione">
+                    </div>
+                    <div class="form-row">
+                        <label for="email" class="testo-sezione">Email:</label>
+                        <input type="email" name="email" id="email" required class="testo-sezione">
+                    </div>
+                    <div class="form-row">
+                        <label for="occupazione" class="testo-sezione">Di cosa ti occupi:</label>
+                        <textarea name="occupazione" id="occupazione" class="testo-sezione"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <label for="obiettivo" class="testo-sezione">Qual è il tuo obiettivo:</label>
+                        <textarea name="obiettivo" id="obiettivo" class="testo-sezione"></textarea>
+                    </div>
+                    <input type="submit" value="Invia">
+                </form>
+            </div>
+        </section>
+
+        <section id="lavoro">
+            <h1 class="testo-sezione">Portfolio Siti Web</h1>
+            <div class="galleria-lavori">
+                <div class="quadrato-lavoro">
+                    <img src="URL_IMMAGINE_1" alt="Descrizione immagine 1">
+                    <p class="didascalia-lavoro">Titolo progetto 1</p>
+                </div>
+                <div class="quadrato-lavoro">
+                    <img src="URL_IMMAGINE_2" alt="Descrizione immagine 2">
+                    <p class="didascalia-lavoro">Titolo progetto 2</p>
+                </div>
+                <div class="quadrato-lavoro">
+                    <img src="URL_IMMAGINE_3" alt="Descrizione immagine 3">
+                    <p class="didascalia-lavoro">Titolo progetto 3</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="articoli">
+            <h1 class="articoli">Articoli</h1>
+            
+            <div class="article-preview-container">
+                <!-- Articolo 1 -->
+                <div class="article-preview" onclick="openArticle('article1.html')">
+                    <img src="/frontend/static/foto-article1.jpg" alt="Anteprima articolo 1" class="article-preview-img"> <!-- Cambiato da article1-img a article-preview-img -->
+                    <h2>Ristorante Santa Barbara</h2>
+                    <p>Il Ristorante Santa Barbara offre un'esperienza culinaria unica...</p>
+                </div>
+                <!-- Articolo 2 -->
+                <div class="article-preview" onclick="openArticle('article2.html')">
+                    <img src="foto-articolo2.jpg" alt="Anteprima articolo 2" class="article-preview-img">
+                    <h2>Titolo Articolo 2</h2>
+                    <p>Anteprima del contenuto dell'articolo 2...</p>
+                </div>
+                <!-- Articolo 3 -->
+                <div class="article-preview" onclick="openArticle('article3.html')">
+                    <img src="foto-articolo3.jpg" alt="Anteprima articolo 3" class="article-preview-img">
+                    <h2>Titolo Articolo 3</h2>
+                    <p>Anteprima del contenuto dell'articolo 3...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <!-- Aggiungi il tag script per il JavaScript -->
+        <script src="js/script.js"></script>
+    </body>
+    </html>

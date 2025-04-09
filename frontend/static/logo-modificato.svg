@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1058.3433"
+   height="595.3512"
+   viewBox="0 0 1058.3433 595.3512"
+   sodipodi:docname="logo-modificato1.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:export-filename="logo modificato.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:export-batch-path="C:\Users\fedeg\OneDrive\Desktop\Inside the digital company\frontend\static"
+   inkscape:export-batch-name="logo-modificato"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient4"
+       inkscape:collect="always"
+       inkscape:label="3">
+      <stop
+         style="stop-color:#fcd812;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#fce408;stop-opacity:0;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3">
+      <path
+         d="M 0,0.028 H 793.729 V 446.513 L 0,446.513 Z"
+         clip-rule="evenodd"
+         id="path3" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4"
+       id="linearGradient6"
+       x1="198.20358"
+       y1="156.77979"
+       x2="308.32043"
+       y2="392.92615"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.94109357"
+     inkscape:cx="528.10902"
+     inkscape:cy="298.0575"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2"
+     inkscape:export-bgcolor="#ffffffff">
+    <inkscape:page
+       x="0"
+       y="0"
+       inkscape:label="1"
+       id="page1"
+       width="1058.3433"
+       height="595.3512"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="g1"
+     inkscape:groupmode="layer"
+     inkscape:label="1">
+    <g
+       id="g2"
+       transform="translate(1.0625936,-1.0625936)">
+      <path
+         id="path2"
+         d="M 0,446.513 H 793.729 V 0.028 H 0 Z"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         transform="matrix(0.80319381,0,0,-0.61460088,120.07308,412.56496)"
+         clip-path="url(#clipPath3)"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g3"
+       transform="translate(29.752621,15.938904)">
+      <text
+         id="text3"
+         xml:space="preserve"
+         x="396.83478"
+         y="214.73738"
+         style="font-size:38px;stroke-width:1.33333"><tspan
+           id="tspan3"
+           style="font-variant:normal;font-weight:700;font-size:38px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333"
+           x="396.83478"
+           dx="0 0 0.042670667 0.042670667 0 0.042670667 0.042670667 0 0 0.042670667"
+           y="214.73738">INSIDE THE</tspan></text>
+    </g>
+    <g
+       id="g4"
+       transform="translate(-10.625936,-25.502246)">
+      <text
+         id="text4"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,379.23733,297.82718)"
+         style="font-size:28.5px;white-space:pre;inline-size:284.921;display:inline"><tspan
+           x="0"
+           y="0"
+           id="tspan7"><tspan
+             style="font-weight:700;font-family:Arial"
+             id="tspan5">DIGITAL COMPANY</tspan></tspan></text>
+    </g>
+    <g
+       id="g5"
+       transform="translate(49.941899,-35.065588)">
+      <text
+         id="text5"
+         xml:space="preserve"
+         style="font-size:24px;white-space:pre;inline-size:431.159;display:inline;stroke-width:1.33333"
+         x="381.98108"
+         y="339.47717"
+         transform="translate(24.439653,-6.3755616)"><tspan
+           x="381.98108"
+           y="339.47717"
+           id="tspan9"><tspan
+             style="font-family:Arial"
+             id="tspan8">Dott.ssa Gioffrè Federica</tspan></tspan></text>
+    </g>
+    <g
+       id="g6"
+       transform="matrix(0.93886207,0,0,0.92557645,19.202997,21.518122)">
+      <path
+         id="path6"
+         d="m 123.64927,290.7367 93.34694,-48.02341 -12.16195,-51.79565 -6.85634,-43.95636 70.62557,69.20205 89.56622,-46.07837 -45.91924,88.86707 70.62439,69.20265 -99.01671,-14.26111 -45.96952,88.85094 -15.23877,-97.69642 z"
+         style="fill:url(#linearGradient6);fill-opacity:1;fill-rule:evenodd;stroke:#ffde59;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cccccccccccc" />
+    </g>
+    <g
+       id="g7"
+       transform="matrix(0.88037211,-0.13761685,0.14777103,0.92628714,1.0488434,62.363381)">
+      <path
+         id="path7"
+         d="m 336.29234,255.48124 c 7.01833,5.49919 11.17752,9.12873 16.29895,16.77883 5.90617,8.7624 7.31476,17.11038 4.13125,24.15702 -3.18272,7.04762 -10.88292,12.56778 -22.30826,16.02659 -11.42494,3.45704 -26.17836,4.71369 -42.75416,3.61492 -16.60918,-1.07767 -34.43311,-4.44778 -51.7875,-9.78011 -17.29772,-5.32647 -33.46052,-12.4188 -46.8854,-20.5421 -13.39307,-8.14641 -23.53969,-17.06542 -29.44586,-25.82782 -5.905,-8.76318 -7.31553,-17.11138 -4.13203,-24.15801 3.16142,-7.07441 10.86199,-12.59633 22.28695,-16.05337 6.88746,-2.07212 8.45947,-2.1421 13.26775,-2.80375"
+         style="fill:none;stroke:#3465a4;stroke-width:3.77947;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g9"
+       transform="matrix(0.65856443,-0.28313989,0.26957816,0.77128885,32.40712,147.61157)">
+      <path
+         id="path10"
+         d="m 214.696,312.122 c 7.512,1.616 12.473,2.353 20.41,1.701 9.411,-0.793 16.327,-4.138 20.04,-9.779 3.714,-5.613 4.111,-13.266 1.134,-22.252 -2.976,-8.958 -9.184,-18.879 -18.056,-28.772 -8.844,-9.921 -20.041,-19.446 -32.4,-27.609 -12.388,-8.192 -25.512,-14.769 -38.098,-19.049 -12.586,-4.28 -24.151,-6.123 -33.562,-5.358 -9.411,0.766 -16.328,4.139 -20.041,9.752 -3.714,5.612 -4.11,13.294 -1.134,22.251 1.701,5.16 2.494,6.435 4.337,9.808"
+         style="fill:none;stroke:#00a933;stroke-width:2.8346;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,595.35118)" />
+    </g>
+  </g>
+</svg>

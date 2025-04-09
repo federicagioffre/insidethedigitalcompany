@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articolo Completo - Ristorante Santa Barbara</title>
+    <link rel="stylesheet" href="/frontend/public/styles.css">
+  
+    <!-- Meta tag per Facebook e altre piattaforme social -->
+    <meta property="og:title" content="Ristorante Santa Barbara 1789 - Esperienza unica in Calabria">
+    <meta property="og:description" content="Vivi un'esperienza culinaria unica nel Ristorante Santa Barbara, con piatti tipici e una vista spettacolare sullo Stretto di Messina.">
+    <meta property="og:image" content="foto-article1.jpg">
+    <meta property="og:url" content="URL_DEL_TUO_ARTICOLO">
+    <meta property="og:type" content="article"> <!-- Definisce il tipo di contenuto, in questo caso un articolo -->
+    
+    <!-- Meta tag per WhatsApp (WhatsApp utilizza Open Graph per la condivisione) -->
+    <meta property="og:title" content="Ristorante Santa Barbara 1789 - Esperienza unica in Calabria">
+    <meta property="og:description" content="Vivi un'esperienza culinaria unica nel Ristorante Santa Barbara, con piatti tipici e una vista spettacolare sullo Stretto di Messina.">
+    <meta property="og:image" content="foto-article1.jpg">
+    <meta property="og:url" content="URL_DEL_TUO_ARTICOLO">
+
+</head>
+<body class="article-page">
+
+<!-- Pulsante per chiudere la pagina -->
+<button class="close-btn" onclick="closePage()">X</button>
+
+<h1>Ristorante Santa Barbara 1789</h1>
+
+<div class="article">
+
+    <!-- Contenitore immagini centrali -->
+    <div class="article-images">
+        <img class="foto-article1" src="/frontend/static/foto-article1.jpg" alt="Immagine dell'articolo">
+        <img class="piatti-antipasto" src="/frontend/static/tartare.jpg" alt="antipasto">
+    </div>
+
+    <!-- Contenitore con immagine dei vini e testo affiancato -->
+    <div class="article-content">
+        <div class="article-text">
+            <p>
+                Il ristorante Santa Barbara offre un'esperienza culinaria unica grazie ad una cucina raffinata unitamente ad una vista
+                panoramica sullo Stretto di Messina e l'arcipelago delle Eolie. Immerso tra vigneti, il locale dispone di una veranda
+                a vetri utilizzabile in tutte le stagioni, che permette di godere del panorama in qualsiasi periodo dell'anno.
+            </p>
+            <p>
+                Il menù del ristorante presenta una selezione di piatti sia di pesce che di carne ispirati alla tradizione culinaria
+                locale. La carta dei vini vanta oltre 200 etichette selezionate per accompagnare al meglio ogni portata.
+            </p>
+            <p>
+                Inoltre, il ristorante propone una selezione di formaggi e salumi provenienti dalle zone dell'Aspromonte, offrendo
+                un ulteriore assaggio delle eccellenze gastronomiche calabresi.
+            </p>
+            <p>
+                L'ambiente elegante e l'attenzione ai dettagli rendono il ristorante Santa Barbara un luogo ideale per cene romantiche,
+                eventi speciali o semplicemente per chi desidera concedersi una serata all'insegna del buon cibo e di una vista
+                indimenticabile.
+            </p>
+            <p>
+              Data la popolarità del ristorante è gradita la prenotazione contattando il numero: 
+              <strong>+39 0966 337533</strong>. <br> Il ristorante Santa Barbara si trova in una posizione esclusiva e facilmente raggiungibile.  
+    <a href="https://www.google.it/maps/place/Santabarbara+1789/@38.292592,15.8155621,17z/data=!3m1!4b1!4m6!3m5!1s0x131500f008e57285:0x9f9d649e23290abe!8m2!3d38.292592!4d15.818137!16s%2Fg%2F1tdhh3y6?entry=ttu&g_ep=EgoyMDI1MDMzMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <img src="/frontend/static/google-maps.png" alt="Google Maps" style="width: 20px; height: 20px; vertical-align: middle;">
+        Visualizza su Google Maps
+    </a>
+            </p>
+        </div>
+        
+        <!-- Immagine dei vini affiancata al testo -->
+        <img class="image-right" src="/frontend/static/vini.jpg" alt="tutti i vini">
+    </div>
+
+    <!-- Pulsanti di condivisione -->
+    <div class="share-buttons">
+        <button onclick="shareOnWhatsApp()">
+            <img src="/frontend/static/whatsapp.png" alt="WhatsApp" style="width: 20px; height: 20px; margin-right: 8px;">
+            Condividi su WhatsApp
+        </button>
+        
+        <button onclick="shareOnFacebook()">
+            <img src="/frontend/static/facebook.png" alt="Facebook" style="width: 20px; height: 20px; margin-right: 8px;">
+            Condividi su Facebook
+        </button>
+        
+        <button onclick="shareOnInstagram()">
+            <img src="/frontend/static/instagram.png" alt="Instagram" style="width: 20px; height: 20px; margin-right: 8px;">
+            Condividi su Instagram
+        </button>
+
+        <button onclick="copyLink()">Copia il link</button>
+    </div>
+</div>
+
+<script src="/frontend/public/script.js"></script>
+
+</body>
+</html>
+

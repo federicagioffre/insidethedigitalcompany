@@ -1,0 +1,553 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px solid rgb(249, 3, 3);
+    margin: 0;
+    padding: 15px; /* Padding per allontanare il contenuto dal bordo della cornice */
+    width: 100%; /* Modifica la larghezza del body al 100% */
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Imposta l'altezza minima del body al 100% dell'altezza della viewport */
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+    height: auto;
+    }
+    
+    html {
+    height: 100%; /* Aggiungi l'altezza del html al 100% */
+    box-sizing: border-box;
+    }
+    
+    header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Allinea verticalmente al centro */
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    }
+    
+    .titolo-principale {
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    text-align: center; /* Allinea il titolo al centro */
+    font-weight: bold;
+    }
+    
+    .sottotitolo {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: -80px; /* riduce lo spazio inferiore tra il sottotilo e la riga del logo */
+    font-weight: bold; /* Rende il testo in grassetto */
+    }
+
+    .sottotitolo span {
+    display: inline-block; /* Permette di applicare colori a singola <span> */
+    }
+    
+    .sottotitolo span:nth-child(1) {
+     color: blue;
+    }
+    
+    .sottotitolo span:nth-child(2) {
+    color: rgb(2, 2, 2);
+    }
+    
+    .sottotitolo span:nth-child(3) {
+    color: rgb(250, 3, 3);
+    }
+    
+    .sottotitolo span:nth-child(4) {
+    color: rgb(5, 5, 5);
+    }
+    
+    .sottotitolo span:nth-child(5) {
+    color: green;
+    }
+    
+    .sottotitolo span:nth-child(6) {
+    color: rgb(6, 6, 6);
+    }
+    
+    .sottotitolo span:nth-child(7) {
+    color: rgb(228, 123, 3);
+    }
+
+    .sottotitolo span:nth-child(8) {
+    color: rgb(6, 6, 6);
+    }
+    
+    .immagine-strumenti-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50vh; /* Occupa metà dello schermo */
+        margin-top: -40px; /* Sposta l'immagine più in basso */
+    }
+    .immagine-strumenti {
+        max-width: 100%; /* L'immagine non supera la larghezza del container */
+        height: auto; /* Mantiene le proporzioni originali */
+        display: block; /* Rimuove eventuali spazi indesiderati */
+    }
+
+    .logo-menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Distribuisce logo a sinistra e menu a destra */
+        width: 100%;
+        padding: 10px 10px; /* Aggiusta padding come vuoi */
+        box-sizing: border-box;
+    }
+    
+    .logo {
+        max-height: none; /* Rimuove il limite di altezza */
+        height: 300px; /* Imposta direttamente l'altezza del logo */
+        width: auto; /* Mantiene le proporzioni */
+        margin: 0; /* Togli margini negativi */
+        margin-left: -60px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: -30px;
+        margin-right: 50px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+    margin: 0;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    font-size: 18px; /* Aumenta la dimensione del font */
+    color: #030303;
+    font-weight: bold;
+    padding: 5px 15px; /* Aggiungi padding per aumentare la spaziatura */
+
+    }
+    
+    header nav ul li a:hover {
+    color: #f90404; /* Cambia il colore al passaggio del mouse (opzionale) */
+    }
+    
+    nav ul {
+    gap: 20px; /* Aumenta la spaziatura tra i link */
+    }
+    
+    section {
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+    }
+
+html {
+    scroll-behavior: smooth;
+}
+.modulo-contatti-container {
+    display: flex;
+    justify-content: center; /* Centra il modulo orizzontalmente */
+} 
+.testo-sezione {
+    font-size: 2em; /* Imposta la dimensione del carattere desiderata */
+    text-align: center;
+}
+/* Stile per i placeholder dei campi di input */
+.testo-sezione::placeholder {
+    font-size: 1.6em;
+}
+
+.modulo-contatti {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px; /* Aggiungi un po' di spaziatura interna */
+}
+
+.modulo-contatti * {
+    box-sizing: border-box;
+}
+
+.modulo-contatti .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.modulo-contatti label {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.modulo-contatti input,
+.modulo-contatti textarea {
+    flex: 2;
+    width: 100%;
+}
+.modulo-contatti textarea.textarea-grande {
+    height: 200px; /* Aumenta l'altezza a 150 pixel */
+}
+.modulo-contatti input[type="submit"] {
+    margin-left: auto;
+    background-color: #f4f4f4; /* Colore di sfondo predefinito */
+    color: #fb0404; /* Colore del testo predefinito */
+    padding: 10px 20px; /* Aggiungi un po' di spaziatura interna */
+    border: none; /* Rimuovi il bordo predefinito */
+    cursor: pointer; /* Cambia il cursore in una manina */
+    transition: background-color 0.3s ease; /* Aggiungi una transizione per un effetto fluido */
+    font-size: 1.6em; /* Aumenta la dimensione del carattere */
+    font-weight: bold; /* Rende il testo in grassetto */
+}
+
+.modulo-contatti input[type="submit"]:hover {
+    background-color: rgb(3, 192, 3); /* Colore di sfondo al passaggio del mouse */
+    color: rgb(6, 6, 6); /* Colore del testo al passaggio del mouse */
+}
+
+#home {
+    scroll-margin-top: -20px; /* o il valore che ti serve */
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px; /* Ridotto per avvicinare al top */
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+}
+
+/* TITOLO CENTRATO IN ALTO */
+.titolo-container {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.titolo-home {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #060606;
+}
+
+/* CONTENITORE FLEX: immagine a sinistra, testo a destra */
+.contenuto-principale {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: -70px;
+}
+
+/* IMMAGINE A SINISTRA */
+.immagine-home {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-fede-wrapper {
+    display: inline-block;
+    max-width: 400px;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50% rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 75%, rgba(0, 0, 0, 0.2) 85%, rgba(0, 0, 0, 0) 100%);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: cover;
+  }
+
+.foto-fede-wrapper:hover {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+.foto-fede {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 60px;
+    object-fit: cover;
+    border: none; /* Rimuoviamo il bordo visibile */
+    display: block;
+}
+
+.testo-home {
+    flex: 2;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #030303;
+    text-align: justify;
+}
+
+.testo-home .primo-rigo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(55, 55, 247);
+    display: block;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+.progetto-in-mente {
+    display: inline-block;
+    margin-left: 120px; /* sposta a destra di 20px */
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* LINK CERCHIATO */
+.cerchiato {
+    border: 2px solid rgb(55, 55, 247);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    text-align: center;
+    display: inline-block;
+    margin: 20px auto;
+    margin-left: 120px; 
+    text-decoration: none;
+    color: inherit;
+    animation: ingrandisci 3s infinite alternate;
+}
+
+@keyframes ingrandisci {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+}
+
+.galleria-lavoro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Crea griglia responsiva */
+    gap: 20px; /* Spazio tra i quadrati */
+    padding: 20px;
+}
+
+.quadrato-lavoro {
+    border: 1px solid #faf7f7; /* Bordo dei quadrati */
+    padding: 10px;
+    text-align: center;
+}
+
+.quadrato-lavoro img {
+    max-width: 100%; /* Immagini responsive */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.didascalia-lavoro {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+/* Container per le anteprime degli articoli */
+.article-preview-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Stili generali per ogni articolo nell'anteprima */
+.article-preview {
+    border: 1px solid #ddd;          /* Bordo per l'anteprima */
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.article-preview:hover {
+    transform: scale(1.05);
+}
+
+/* Stili per le immagini nell'anteprima */
+.article-preview-img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;                /* Limita l'altezza per l'anteprima */
+    object-fit: cover;                /* Ritaglia l'immagine per adattarla */
+    border-radius: 8px;               /* Raggio del bordo per l'immagine */
+}
+
+.article1-img {
+    width: 50%;            /* L'immagine occuperà l'80% della larghezza della pagina */
+    height: auto;          /* L'altezza si adatta automaticamente in base alle proporzioni */
+    max-height: 200px;     /* Limita l'altezza massima dell'immagine */
+    object-fit: contain;   /* Mantiene l'immagine intera senza ritagliarla */
+}
+
+* Impostazioni generali del corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Aggiungi il centramento del testo */
+}
+
+.article-page {
+    border: none !important; /* Rimuove il bordo solo in questa pagina */
+}
+
+/* Centra il titolo */
+h1 {
+    font-size: 32px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.article-text {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0; /* niente padding negativo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.article-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    gap: 10px; /* positivo! */
+}
+
+.image-right {
+    max-width: 400px;
+    height: auto;
+    max-height: 500px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+/* Contenitore per le immagini principali (sotto il titolo) */
+.article-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spazio tra le immagini */
+    flex-wrap: wrap; /* Permette di adattarsi su schermi piccoli */
+    width: 100%;
+}
+
+/* Immagini centrali */
+.foto-article1, .piatti-antipasto {
+    width: 40%; /* Occupa meno spazio per non risultare troppo grande */
+    max-width: 350px;
+    height: auto;
+    max-height: 350px;
+}
+
+/* Immagine dei vini */
+.image-right {
+    max-width: 400px;
+    height: auto;
+    max-height: 500px;
+    margin-top: 20px; /* Aggiunge spazio sopra l'immagine */
+}
+
+/* Paragrafi */
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Sezione con i pulsanti di condivisione */
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Stile per i pulsanti */
+.share-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.share-buttons button:hover {
+    background-color: #f7f7f7;
+}
+
+/* Pulsante per chiudere la pagina */
+.close-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: rgb(250, 5, 5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.close-btn:hover {
+    background-color: #1cfa03;
+    color: rgb(5, 5, 5);
+}
+
+/* Responsività per schermi più piccoli */
+@media (max-width: 768px) {
+    .article-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foto-article1, .piatti-antipasto {
+        width: 80%;
+    }
+
+    .article-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-right {
+        max-width: 100%;
+    }
+
+    .article-text {
+        text-align: center;
+    }
+}
+
