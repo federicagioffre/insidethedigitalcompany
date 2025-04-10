@@ -94,6 +94,7 @@ body {
         max-width: 100%; /* L'immagine non supera la larghezza del container */
         height: auto; /* Mantiene le proporzioni originali */
         display: block; /* Rimuove eventuali spazi indesiderati */
+        border-radius: 10px;
     }
 
     .logo-menu-container {
@@ -269,27 +270,27 @@ html {
 
 .foto-fede-wrapper {
     display: inline-block;
-    max-width: 400px;
-    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50% rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100%);
-    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 75%, rgba(0, 0, 0, 0.2) 85%, rgba(0, 0, 0, 0) 100%);
-    mask-repeat: no-repeat;
-    mask-position: center;
-    mask-size: cover;
-  }
-
-.foto-fede-wrapper:hover {
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    height: 500px; /* Imposta un'altezza fissa per il contenitore */
+    border-radius: 10px;
+    overflow: hidden; /* Nasconde la parte dell'immagine che esce dal contenitore */
 }
 
 .foto-fede {
     width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 60px;
-    object-fit: cover;
-    border: none; /* Rimuoviamo il bordo visibile */
+    height: 100%; /* Imposta l'altezza dell'immagine uguale a quella del contenitore */
+    object-fit: cover; /* Ritaglia l'immagine per adattarla al contenitore */
+    object-position: top; /* Centra l'immagine orizzontalmente e la sposta verso l'alto */
+    border-radius: 0; /* Rimuove gli angoli arrotondati sull'immagine */
+    border: none; /* Rimuove il bordo visibile */
     display: block;
+    transition: transform 0.3s ease-in-out; /* Transizione per ingrandire l'immagine */
 }
+
+.foto-fede-wrapper:hover {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2); /* Aggiungi l'ombra al passaggio del mouse */
+}
+
 
 .testo-home {
     flex: 2;
